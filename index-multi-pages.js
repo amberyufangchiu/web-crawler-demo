@@ -2,7 +2,7 @@ const puppeteer = require("puppeteer");
 const ExcelJS = require("exceljs");
 
 (async () => {
-  const websiteLink = "https://eu.bonpoint.com/collections/new-collection";
+  const websiteLink = "WEBSITE_LINK_HERE";
   const browser = await puppeteer.launch({
     headless: true,
     slowMo: 100,
